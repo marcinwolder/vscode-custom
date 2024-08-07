@@ -8,7 +8,6 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false,
     "editor.stickyScroll.enabled": false,
     "vscode_custom_css.imports": [
         "file:///C:/Users/<username>/vscode-custom/styles.css"
@@ -75,5 +74,7 @@
             "close": ";"
         }
     ],
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "cSpell.language": "en,pl",
+    "breadcrumbs.enabled": false
 }

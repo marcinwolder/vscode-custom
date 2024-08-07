@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Lobster&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+#workbench\.parts\.sidebar > div.composite.title > div.title-label > h2 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: unset !important;
+}
+#workbench\.parts\.sidebar > div.composite.title > div.title-label > h2::before {
+    content: "Racoons🦝 ";
+    font-size: large;
+    /* font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; */
+}
+.quick-input-widget {
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+#workbench\.parts\.sidebar,
+#workbench\.parts\.editor > div.content > div > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element > div.tabs-container,
+#workbench\.parts\.titlebar > div > div.titlebar-center,
+.quick-input-widget {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}

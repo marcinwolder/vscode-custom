@@ -1,0 +1,9 @@
+FiraCode font - Professional Font for Developers: SeyyedKhandon.firacode
+One Monokai Theme: azemoh.one-monokai
+Material Icon Theme: PKief.material-icon-theme
+Code Spell Checker: streetsidesoftware.code-spell-checker
+Polish Code Spell Checker: streetsidesoftware.code-spell-checker-polish
+TabOut: albert.TabOut
+Error Lens: usernamehw.errorlens
+Better Align: chouzz.vscode-better-align
+Custom CSS and JS Loader: be5invis.vscode-custom-css

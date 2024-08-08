@@ -1,42 +1,80 @@
 {
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    // Custom tags for the parser to use
-    "yaml.customTags": [
-        "!And",
-        "!If",
-        "!Not",
-        "!Equals",
-        "!Or",
-        "!FindInMap sequence",
-        "!Base64",
-        "!Cidr",
-        "!Ref",
-        "!Sub",
-        "!GetAtt",
-        "!GetAZs",
-        "!ImportValue",
-        "!Select",
-        "!Select sequence",
-        "!Split",
-        "!Join sequence"
-    ],
-    // Enable/disable default YAML formatter (requires restart)
-    "yaml.format.enable": true,
     "git.openRepositoryInParentFolders": "never",
-    "python.createEnvironment.trigger": "off",
     "editor.minimap.enabled": false,
     "workbench.statusBar.visible": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Monokai",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "workbench.activityBar.location": "hidden",
     "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false,
     "editor.stickyScroll.enabled": false,
     "vscode_custom_css.imports": [
-        "file:///C:/Users/woldm/CustomVSCodeStyles/styles.css"
+        "file:///C:/Users/<username>/vscode-custom/styles.css"
     ],
     "window.menuBarVisibility": "compact",
     "workbench.startupEditor": "none",
+    "diffEditor.experimental.showEmptyDecorations": false,
+    "scm.diffDecorations": "none",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "circle",
+    "editor.folding": false,
+    "window.commandCenter": false,
+    "tabout.charactersToTabOutFrom": [
+        {
+            "open": "[",
+            "close": "]"
+        },
+        {
+            "open": "{",
+            "close": "}"
+        },
+        {
+            "open": "(",
+            "close": ")"
+        },
+        {
+            "open": "'",
+            "close": "'"
+        },
+        {
+            "open": "\"",
+            "close": "\""
+        },
+        {
+            "open": "/",
+            "close": "/"
+        },
+        {
+            "open": ":",
+            "close": ":"
+        },
+        {
+            "open": "=",
+            "close": "="
+        },
+        {
+            "open": ">",
+            "close": ">"
+        },
+        {
+            "open": "<",
+            "close": "<"
+        },
+        {
+            "open": ".",
+            "close": "."
+        },
+        {
+            "open": "`",
+            "close": "`"
+        },
+        {
+            "open": ";",
+            "close": ";"
+        }
+    ],
+    "workbench.activityBar.location": "hidden",
+    "cSpell.language": "en,pl",
+    "breadcrumbs.enabled": false
 }

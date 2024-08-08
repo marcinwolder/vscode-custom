@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+oem_5",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+oem_5",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+k m",
+        "command": "-workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+shift+oem_5",
+        "command": "workbench.action.joinAllGroups"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    }
+]

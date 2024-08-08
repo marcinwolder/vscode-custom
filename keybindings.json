@@ -1,6 +1,0 @@
-[
-    {
-        "key": "ctrl+oem_5",
-        "command": "workbench.action.splitEditorToNextGroup"
-    }
-]

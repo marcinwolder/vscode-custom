@@ -1,0 +1,43 @@
+{
+    // + Terminal config
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.panel.opensMaximized": "never",
+    // - Terminal config
+    
+    // + Config
+    "git.openRepositoryInParentFolders": "never",
+    // - Config
+
+    // + Hidden UI Elements 
+    "breadcrumbs.enabled": false,
+    "editor.folding": false,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "diffEditor.experimental.showEmptyDecorations": false,
+    "scm.diffDecorations": "none",
+    "workbench.activityBar.location": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    // - Hidden UI Elements 
+
+    // + UI Extension configs
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Monokai",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "circle",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/<username>/vscode-custom/styles.css"
+    ],
+    // - UI Extension configs
+    
+    // + Extension configs
+    "cSpell.language": "en,pl",
+    // - Extension configs
+
+    // NEW!!
+}

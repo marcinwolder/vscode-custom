@@ -6,6 +6,7 @@
     
     // + Config
     "git.openRepositoryInParentFolders": "never",
+    "extensions.ignoreRecommendations": true,
     // - Config
 
     // + Hidden UI Elements 
@@ -38,6 +39,4 @@
     // + Extension configs
     "cSpell.language": "en,pl",
     // - Extension configs
-
-    // NEW!!
 }

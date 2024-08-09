@@ -14,4 +14,4 @@ code --install-extension usernamehw.errorlens
 code --install-extension wayou.vscode-todo-highlight
 
 # EDIT settings.json
-pwd | cut -d / -f 4 | xargs sh -c 'sed "s/<username>/$0/g" ./dummy-settings.json' $1 >> ./settings.json
+pwd | cut -d / -f 4 | xargs sh -c 'sed "s/<username>/$0/g" ./dummy-settings.json' $1 > ./settings.json

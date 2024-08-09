@@ -1,5 +1,6 @@
 # PYTHON
 code --install-extension ms-python.isort
+code --install-extension ms-toolsai.jupyter
 
 # AWS
 code --install-extension dannysteenman.cloudformation-yaml-snippets

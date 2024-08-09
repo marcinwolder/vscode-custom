@@ -14,4 +14,4 @@ code --install-extension chrmarti.regex
 code --install-extension ms-azuretools.vscode-docker
 
 # EDIT settings.json
-sed "s/\/\/ - Extension configs/\"yaml.customTags\": [\n\t\t\"!Ref\",\n\t\t\"!Sub\",\n\t\t\"!GetAtt\"\n\t]\n\t\/\/ - Extension configs/g" ./settings.json > ./flavors/settings.json
+sed "s/\/\/ - Extension configs/\"yaml.customTags\": [\n\t\t\"!Ref\",\n\t\t\"!Sub\",\n\t\t\"!GetAtt\"\n\t],\n\t\"workbench.editorAssociations\": {\n\t\t\"file:\/**\/*.parquet\": \"jupyter-data-wrangler\"\n\t}\n\t\/\/ - Extension configs/g" ./settings.json > ./flavors/settings.json
